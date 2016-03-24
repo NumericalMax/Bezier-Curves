@@ -9,10 +9,10 @@
 function Bezier = Bezier(S,t)
 
     for k = 0:0.01:1
-        Q(:,round(k*100+1)) = CasteljauAlgo(S,k,0);
+        Q(:,round(k*100+1)) = deCasteljau(S,k,0);
     end
 
-    CasteljauAlgo(S,t,1);
+    deCasteljau(S,t,1);
     hold on;
 
 Bezier = plot(Q(1,:),Q(2,:),'r','LineWidth',2);
