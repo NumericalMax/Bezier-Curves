@@ -6,7 +6,7 @@
 %Abhaengigkeit von t
 %Ersteller: Maximilian Kapsecker
 %Version: 1.2
-function Casteljau = CasteljauAlgo(P_Start,t,draw)
+function Casteljau = deCasteljau(P_Start,t,draw)
 
 L = size(P_Start,2);
 
