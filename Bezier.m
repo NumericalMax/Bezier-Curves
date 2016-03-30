@@ -6,8 +6,8 @@
 %Ersteller: Maximilian Kapsecker
 %Version: 1.0
 
-%Example:
-%S = [0,1,2,3,4,5,6; 0,1,2,3,1,2,0];
+%Example Function Call:
+%S = [0,1,2,3,4; 0,1,2,2,1];
 %Bezier(S,0.5);
 
 function Bezier = Bezier(S,t)
